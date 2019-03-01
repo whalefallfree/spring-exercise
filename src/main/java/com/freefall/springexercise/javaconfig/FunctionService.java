@@ -1,8 +1,5 @@
-package com.freefall.springexercise.test;
+package com.freefall.springexercise.javaconfig;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public class FunctionService {
     public String sayHello(String word) {
         return "Hello " + word + "!";
